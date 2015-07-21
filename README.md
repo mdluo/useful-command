@@ -13,6 +13,6 @@ du -hx --max-depth=1 .
 openssl rand -base64 32
 
 # docker 启动容器并绑定 host 目录
-docker run -t -i -v /:/Users ubuntu:14.04
+docker run -t -i -v ~:/host ubuntu:14.04
 
 ```
