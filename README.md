@@ -11,4 +11,8 @@ du -hx --max-depth=1 .
 
 # 生成32位随机密码（openssl）
 openssl rand -base64 32
+
+# docker 启动容器并绑定 host 目录
+docker run -t -i -v /:/Users ubuntu:14.04
+
 ```
