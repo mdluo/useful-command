@@ -15,4 +15,9 @@ openssl rand -base64 32
 # docker 启动容器并绑定 host 目录
 docker run -t -i -v ~:/host ubuntu:14.04
 
+# 显示 Linux 内核版本
+uname -ir
+
+# ssh 保持长连接
+ssh -o ServerAliveInterval=100 user@host
 ```
