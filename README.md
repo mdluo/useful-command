@@ -20,4 +20,11 @@ uname -ir
 
 # ssh 保持长连接
 ssh -o ServerAliveInterval=100 user@host
+
+# 查看所有用户
+cat /etc/passwd
+
+# 修改目录权限
+sudo chown -R user /path/to/the/directory
+
 ```
