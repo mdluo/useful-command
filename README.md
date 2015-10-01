@@ -24,7 +24,10 @@ ssh -o ServerAliveInterval=100 user@host
 # 查看所有用户
 cat /etc/passwd
 
-# 修改目录权限
+# 修改目录拥有者
 sudo chown -R user /path/to/the/directory
+
+# <OS X>制作安装引导分区
+sudo /Applications/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ OS\ X\ Yosemite.app --nointeraction
 
 ```
